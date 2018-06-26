@@ -26,7 +26,7 @@ module.exports = {
                       loader: "css-loader"
                     },
                     {
-                      loader: "sass-loader" 
+                      loader: "sass-loader"
                     }
             ]
         }
@@ -39,7 +39,7 @@ module.exports = {
       })
   ],
   devServer: {
-      contentBase: './src',
+      contentBase: './',
       port: 7700,
   }
 };
